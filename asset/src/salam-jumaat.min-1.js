@@ -70,12 +70,12 @@ function renderCard(){
     cardEl.classList.add(NS+'arabic-card');
     cardEl.innerHTML = '<div><p>'+item.arabic+'</p><span class="'+NS+'rumi">'+item.rumi+'</span><span class="'+NS+'terjemah">'+item.terjemah+'</span></div>';
     lastText = item.arabic+'\n'+item.rumi+'\n'+item.terjemah;
-    lastShareText = item.arabic+'\n\n'+item.rumi+'\n\n'+item.terjemah+'\n\nSumber: https://ilmualam.com/p/salam-jumaat-ucapan-maksud-hukum.html';
+    lastShareText = item.arabic+'\n\n'+item.rumi+'\n\n'+item.terjemah+'\n\nSumber: https://www.ilmualam.com/2026/09/salam-jumaat-ucapan-maksud-hukum.html';
   } else {
     cardEl.innerHTML = '<p></p>';
     cardEl.querySelector('p').textContent = item;
     lastText = item;
-    lastShareText = item + '\n\nSumber: https://ilmualam.com/p/salam-jumaat-ucapan-maksud-hukum.html';
+    lastShareText = item + '\n\nSumber: https://www.ilmualam.com/2026/09/salam-jumaat-ucapan-maksud-hukum.html';
   }
 }
 
